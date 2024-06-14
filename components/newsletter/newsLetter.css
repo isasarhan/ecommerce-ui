@@ -1,0 +1,66 @@
+.newsLetterWrapper {
+  position: relative;
+  width: 100%;
+  margin: 50px 0px;
+  height: 450px;
+  padding: 0px 70px;
+  background: url(../../public/images/bg.png);
+  border-radius: 20px;
+}
+.newsLetterWrapper img {
+  position: absolute;
+  width: 30%;
+  right: 0%;
+  z-index: 1000;
+  bottom: -10%;
+}
+.newsLetterWrapper h3 {
+  width: 35%;
+  font-size: 30px;
+  padding-bottom: 15px;
+}
+.newsLetterWrapper .company {
+  color: #c4a489;
+}
+.newsLetterWrapper p {
+  width: 30%;
+  color: #000;
+  padding-bottom: 15px;
+}
+.newsLetterWrapper .newsletterbanner {
+  z-index: 100;
+  position: relative;
+  background-color: white;
+  width: 500px;
+  height: 60px;
+  border-radius: 60px;
+}
+.newsLetterWrapper .newsletterbanner input {
+  border: 0px;
+  width: 100%;
+  height: 100%;
+  border: 0px;
+  border-radius: 60px;
+  outline: none;
+  padding-left: 50px;
+  font-size: 18px;
+}
+.newsLetterWrapper .newsletterbanner svg {
+  position: absolute;
+  left: 15px;
+  font-size: 25px;
+  top: 25%;
+  transform: rotate(-35deg);
+}
+.newsLetterWrapper .newsletterbanner button {
+  height: 100%;
+  padding: 8px 30px;
+  border-radius: 40px;
+  background-color: #c4a489;
+  border-color: #c4a489;
+}
+.newsLetterWrapper .newsletterbanner button:hover {
+  background-color: white;
+  color: #c4a489;
+  border-color: #c4a489;
+}

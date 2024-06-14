@@ -1,0 +1,81 @@
+.sidebar{
+    position: sticky;
+    top: 20px;
+    transition: all 0.3s ease-in-out , opacity 0.3s ease-in-out;
+}
+.sidebar .card h2{
+  position: relative;
+  font-size: 27px;
+  margin: 17px 0px;
+}
+
+.sidebar .card h2:after {
+  content: "";
+  width: 100%;
+  background-color: #edede9;
+  position: absolute;
+  height: 3px;
+  left: 0%;
+  bottom: -10%;
+}
+.sidebar .card h2::before {
+  content: "";
+  width: 30%;
+  background-color: #198753;
+  position: absolute;
+  height: 3px;
+  z-index: 100;
+  left: 0%;
+  bottom: -10%;
+}
+.sidebar .badge {
+  width: 35px;
+  height: 35px;
+  font-size: 15px;
+  color: #507661;
+  background-color: #BAE0C5;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+.sidebar .card {
+    margin: 10px 0px;
+    padding: 20px 25px;
+    position: sticky;
+
+}
+
+.catList svg{
+    color: #507661;
+    font-size: 26px;
+}
+
+.catList .catItem h5{
+    font-size: 17px;
+}
+.catList .catItem {
+  padding: 10px 10px;
+  margin: 15px 0px;
+  border: 1px #e4dede solid;
+}
+.catList .catItem:hover {
+  border: 1px #507661 solid;
+}
+.sidebar .filters input[type="checkbox"]:checked{
+    background-color: #507661;
+    border: 1px solid #507661 ;
+}
+.sidebar .filters{
+    margin: 20px 0px 0px 0px;
+}
+.sidebar .filters ul {
+    overflow: scroll;
+    max-height: 100px;
+}
+.sidebar .filters ul li{
+    list-style: none;
+    padding-left: 10px;
+}
+.sidebar .btn{
+    width: 40%;
+}

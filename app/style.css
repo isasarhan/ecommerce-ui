@@ -1,0 +1,76 @@
+.filterTab {
+    margin: 60px 0px;
+}
+
+.filterTab li {
+    padding-right: 10px;
+    font-size: 17px;
+}
+
+.filterTab li a {
+    text-decoration: none;
+    color: black;
+}
+
+.filterTab li:hover a {
+    color: skyblue;
+
+}
+
+.filterTab li:hover {
+
+    cursor: pointer;
+}
+
+.filterTab .active {
+    color: aqua;
+}
+
+.bestSellers {}
+
+@media (max-width: 768px) {
+    .banner {
+        width: 100% !important;
+    }
+}
+
+.banner {
+    background-color: #D6E8E3;
+    height: 98%;
+    overflow: hidden;
+    width: 90%;
+    border-radius: 20px;
+    padding: 0%;
+}
+
+.banner h4 {
+    position: relative;
+    top: 5%;
+    color: white;
+    padding: 15%;
+    font-size: 40px;
+}
+
+.banner .box {
+    position: relative;
+    height: 100%;
+}
+
+.banner:hover img {
+    transform: scale(110%);
+}
+
+.banner img {
+    transition: all 0.3s ease-in-out;
+    position: absolute;
+    width: 90%;
+    bottom: 0%;
+    right: 0%;
+}
+
+.banner button {
+    border: none;
+    position: relative;
+    margin: 15%;
+    padding: 10px 20px;
+}

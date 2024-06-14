@@ -1,0 +1,64 @@
+.authWrapper {
+    margin-top: 50px;
+}
+
+.authWrapper .card {
+    padding: 50px 40px;
+    width: 35%;
+}
+
+.authWrapper form input {
+    border-radius: 30px;
+    padding: 10px !important;
+    padding-left: 50px !important;
+    border: 3px solid #C4A488;
+}
+
+.authWrapper .avatar {
+    font-size: 90px;
+    border: 4px dashed #C4A488;
+    border-radius: 100%;
+    color: #C4A488;
+    padding: 15px;
+}
+
+.authWrapper .icon:hover {
+    background: #967e6a;
+
+}
+
+.authWrapper .forgetEmail:hover {
+    color: #3b2616;
+}
+
+.authWrapper .icon {
+    position: absolute;
+    cursor: pointer;
+    left: 3px;
+    color: white;
+    font-size: 22px;
+    border-radius: 50%;
+    background: #C4A488;
+    height: 45px;
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.uploadImage {
+    width: 100%;
+    background: white;
+    border: 4px dashed #C4A488;
+    padding: 40px;
+    margin: 20px 0px;
+}
+
+@media (max-width:768px) {
+    .authWrapper .card {
+        width: 95%;
+        padding: 50px 20px;
+
+    }
+}

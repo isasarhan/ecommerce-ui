@@ -1,0 +1,39 @@
+@media (max-width: 768px) {
+
+    .homeSliderMain  {
+        height:max-content ;
+    }
+
+    .homeSlider .item{
+        border-radius: 20px !important;
+        overflow: hidden;
+    }
+    .homeSlider .item img{
+        height: 150px;
+        width: 110%;
+        transform: scale(150%);
+        overflow: hidden;
+    }
+    .homeSlider .item .info h1 {
+        font-size: 20px;
+    }
+
+    .homeSlider .item .info p {
+        font-size: 15px;
+        font-weight: normal;
+        opacity: 0.8;
+        color: rgba(0, 0, 0, 0.5);
+    }
+
+    .slick-arrow {
+
+        width: 30px !important;
+        height: 30px !important;
+    }
+
+    .homeSlider .newsletterbanner {
+       display: none !important;
+    }
+
+   
+}

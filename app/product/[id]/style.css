@@ -1,0 +1,122 @@
+.productDetails .row {
+  padding: 0px 50px;
+  display: flex;
+} 
+
+.productDetails .image {
+  overflow: hidden;
+}
+
+.productDetails .image svg {
+  top: 2%;
+  right: 2%;
+  color: rgb(211, 207, 207);
+  font-size: 45px;
+}
+
+.productDetails .details h2 {
+  font-size: 45px;
+}
+
+.productDetails .details {
+  padding: 30px 40px;
+}
+
+.productDetails .prices {
+  padding: 30px 10px;
+}
+
+.productDetails .price {
+  font-size: 45px;
+}
+
+.productDetails .discount {
+  font-size: 15px;
+  padding: 0%;
+  margin: 0%;
+  color: darkgoldenrod;
+}
+
+.productDetails .oldprice {
+  font-size: 30px;
+  margin-left: 10px;
+  padding: 0%;
+  color: #9b9595;
+  text-decoration: line-through;
+}
+
+.zoomSlider {
+  width: 100%;
+}
+
+.zoomSlider .item img {
+  background-color: #eee8e8;
+  border-radius: 20px;
+
+  width: 100%;
+}
+
+.zoomSlider .item {
+  padding: 10px;
+}
+
+.productDetails .sizes {
+  width: 100%;
+}
+
+.productDetails .sizes li.active {
+  background-color: #37B57A;
+  color: white;
+
+}
+
+.productDetails .counter button:hover {
+  background-color: #198753 !important;
+}
+
+.productDetails .counter button {
+  padding: 10px 20px;
+}
+
+.productDetails .counter input {
+  width: 20%;
+  padding: 10px 20px;
+
+}
+
+.productDetails .counter span svg {
+  margin: 6px;
+}
+
+.productDetails .counter span:hover {
+  background-color: #37B57A;
+}
+
+.productDetails .counter span:hover svg {
+  color: white;
+}
+
+.detailsTabs .tabNav a {
+  color: #6C757D;
+}
+
+.detailsTabs .tabNav:hover {
+  cursor: pointer;
+  box-shadow: 0 3px 6px rgb(0 0 0/20%);
+}
+
+.detailsTabs a .tabNav.active {
+  color: #37B57A;
+
+}
+
+.detailsTabs .tabNav.active {
+  box-shadow: 0 3px 6px rgb(0 0 0/20%);
+}
+
+.detailsTabs .tabNav {
+  padding: 10px 20px;
+  border: 1px #ecedee solid;
+  border-radius: 40px;
+  margin: 10px;
+}

@@ -1,0 +1,40 @@
+.bannerSection .box {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 250px;
+  border-radius: 10px;
+  background-color: #c4a489;
+  transition: transform 0.3s ease-in-out;
+}
+.bannerSection .box h4 {
+  position: relative;
+  top: 25%; 
+  left: 10%;
+  width: 60%;
+  color: white;
+  line-height: 40px;
+  transition: all 0.2s ease-in-out;
+}
+.bannerSection .box img {
+  position: absolute;
+  right: 5%;
+  top: 10%;
+  width: 40%;
+}
+.bannerSection .box button:hover {
+  background-color: #ead6c6;
+  color: #fff;
+}
+.bannerSection .box button {
+  position: relative;
+  top: 25%;
+  padding: 10px 20px;
+  background-color: white;
+  color: #000;
+  border: 0px;
+  left: 10%;
+}
+.bannerSection .box:hover {
+  transform: scale(1.05);
+}

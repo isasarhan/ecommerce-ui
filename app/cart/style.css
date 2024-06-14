@@ -1,0 +1,46 @@
+.cart {
+    padding: 0px 50px;
+}
+
+.cartWrapper table thead tr th:first-child {
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+.cartWrapper table thead tr th:last-child {
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.cartWrapper table thead tr th {
+    background-color: rgb(231, 236, 240);
+    border: 0px;
+    font-size: 17px;
+    padding: 15px 15px;
+    overflow: hidden;
+}
+
+.table td input {
+    width: 60%;
+}
+
+.text-success {
+    color: #37B57A !important;
+}
+
+.table th,
+.table td {
+    padding: 25px 10px;
+}
+.cartRight{
+    position: sticky;
+    top: 110px;
+    transition: all 0.3s ease-in-out , opacity 0.3s ease-in-out;
+}
+.cartRight button{
+    padding: 10px 20px;
+}
+.cartRight h5{
+    font-size: 18px;
+    color: #7C8483;
+}

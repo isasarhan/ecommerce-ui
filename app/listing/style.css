@@ -1,0 +1,31 @@
+.listingPage {
+    padding: 25px 10px;
+}
+
+
+.listingPage .sidebarWrapper {
+    max-width: 20%;
+}
+
+.rightContent {
+    position: relative;
+    width: 80%;
+    flex: 1;
+}
+
+.rightContent .tab-item {
+    z-index: 100;
+}
+
+.rightContent .tab-item button {
+    padding: 7px 20px;
+    display: flex;
+    font-size: 17px;
+    align-items: center;
+}
+
+.rightContent .tab-item button svg {
+    font-size: 19px;
+    padding: 0%;
+    margin-right: 10px;
+}

@@ -1,0 +1,85 @@
+header .part1 {
+  margin: 0%;
+  text-transform: capitalize;
+}
+header .part1 button {
+  background-color: #79583d;
+  color: white;
+}
+.part1 button:hover {
+  background-color: #c4a489;
+}
+header .nav {
+  
+  width: 100%; 
+  border-top: 1px solid #ece2e2;
+  height: 80px;
+  margin: 0px;
+  align-items: center;
+  border-bottom: 1px solid #ece2e2;
+}
+header .catTab {
+  text-transform: capitalize;
+}
+header .nav nav ul li button a {
+  padding: 7px 15px;
+  color: black;
+  text-decoration: none;
+}
+.part2{
+}
+.header .part2 button a{
+  margin: 0px;
+}
+header .nav .part3 .phNb {
+  padding: 10px;
+  margin: 0%;
+}
+header .nav .part3 h4 {
+  line-height: 15px !important;
+  margin: 3px;
+}
+header .nav .part3 p {
+  line-height: 15px !important;
+  margin: 0px;
+}
+header .part3 svg {
+  font-size: 30px;
+  margin-right: 10px; 
+}
+header .dropDown_menu {
+  visibility: hidden;
+  z-index: 1000; 
+  top: 100%;
+  position: absolute;
+  height: fit-content;
+  transition: all 0.3s ease-in-out, opacity 0.3s ease-in-out;
+  box-shadow: 0 3px 6px rgb(0 0 0 / 20%);
+  background-color: white;
+}
+header .dropDown_menu button a {
+  text-align: left;
+}
+
+header li:hover .dropDown_menu {
+  opacity: 1;
+  visibility: inherit;
+  transition: all 0.3s ease-in-out , opacity 0.3s ease-in-out;
+}
+header .megaMenu {
+  left: 0;
+  width: 100%;
+  padding: 20px;
+  z-index: 1000;
+  box-shadow: 0 3px 6px rgb(0 0 0/20%);
+}
+header .megaMenu ul li {
+  list-style: none;
+  display: block;
+  margin: 5px 5px 10px 5px;
+}
+header .megaMenu ul li a {
+  text-decoration: none;
+  color: rgb(125, 125, 125);
+  font-size: 17px;
+}

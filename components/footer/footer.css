@@ -1,0 +1,111 @@
+.footerWrapper .footerBox {
+  width: 100%;
+}
+.footerWrapper {
+  margin: 0%;
+  width: 100%;
+}
+.footerBox .box .info {
+  padding-left: 25px;
+}
+.footerBox .box:hover {
+    transform: translateY(-10px);
+}
+.footerBox .box {
+    transition: all 0.3s ease-in-out ;
+  background-color: #f2f5f9;
+  padding: 15px 15px;
+  margin: 10px 0px;
+  border-radius: 10px;
+}
+.footerBox .box h5 {
+  font-size: 18px;
+
+  margin: 0%;
+}
+.footerBox .box p {
+  color: #b0b0ab;
+  font-size: 15px;
+  margin: 0%;
+}
+.footerBox .box svg {
+  font-size: 40px;
+  color: #b0b0ab;
+}
+footer .section1::after {
+  margin-top: 40px;
+  content: "";
+  background-color: #b0b0ab;
+  width: 100%;
+  height: 1.5px;
+}
+footer {
+  margin: 60px 0px 40px 0px;
+  width: 100%;
+}
+footer p {
+  margin: 5px 10px;
+}
+footer .part1 .iconItem svg {
+  padding: 0%;
+  margin: 0%;
+}
+footer .part1 .iconItem {
+  width: 100%;
+  margin: 15px 0px;
+}
+footer .part1 .iconItem .iconContent {
+  margin: 0%;
+  padding: 0%;
+  font-size: 15px;
+}
+footer .part1 img {
+  width: 45%;
+  left: 0%;
+}
+footer .part5 {
+  left: 0%;
+  margin: 0%;
+  padding: 0%;
+}
+footer .part5 img {
+  width: 70%;
+}
+footer .section2 {
+  padding: 20px 0px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+footer .phNb {
+  padding: 0px;
+  margin: 0%;
+}
+footer .section2 h4 {
+  line-height: 15px !important;
+  margin: 3px;
+}
+footer .section2 p {
+  line-height: 15px !important;
+  margin: 0px;
+}
+footer .section2 svg {
+  font-size: 30px;
+  margin-right: 10px;
+}
+.share ul li a:hover svg{
+    color: #d6beabc3;
+    background-color: white;
+    border: 1px #d6beabc3 solid;
+}
+.share ul li a svg{
+    background-color: #d6beabc3;
+    border-radius: 50%;
+    padding: 5px;
+    margin: 0%;
+    width: 35px;
+    height: 35px;
+}
+.share ul li svg{
+    color: white;
+}

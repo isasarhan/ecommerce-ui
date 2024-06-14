@@ -8,9 +8,26 @@
     "start": "next start",
     "lint": "next lint"
   },
+  "proxy": "https://dummyjson.com",
   "dependencies": {
+    "@emotion/react": "^11.11.4",
+    "@emotion/styled": "^11.11.5",
+    "@hookform/resolvers": "^3.4.2",
+    "@mui/icons-material": "^5.15.16",
+    "@mui/material": "^5.15.16",
+    "@mui/styled-engine-sc": "^6.0.0-alpha.18",
+    "axios": "^1.6.8",
+    "bootstrap": "^5.3.3",
+    "lodash": "^4.17.21",
+    "next": "14.2.3",
     "react": "^18",
     "react-dom": "^18",
-    "next": "14.2.3"
+    "react-hook-form": "^7.51.5",
+    "react-icons": "^5.2.1",
+    "react-image-magnifiers": "^1.4.0",
+    "react-slick": "^0.30.2",
+    "slick-carousel": "^1.8.1",
+    "styled-components": "^6.1.9",
+    "yup": "^1.4.0"
   }
 }
