@@ -2,7 +2,8 @@
 import Link from "next/link";
 import "./style.css";
 import "./responsive.css";
-import { GlassMagnifier } from "react-image-magnifiers";
+import Zoom from 'react-medium-image-zoom'
+import 'react-medium-image-zoom/dist/styles.css'
 import SearchOutlinedIcon from "@mui/icons-material/SearchOutlined";
 import HomeOutlinedIcon from "@mui/icons-material/HomeOutlined";
 import { Rating } from "@mui/material";
@@ -72,13 +73,20 @@ const ProductDetails = ({ params }) => {
       <div className="productDetails w-100 ">
         <div className="row w-100 position-relative">
           {/* product zoom start here */}
-          <div className="col-sm-5 card image rounded-5">
-            <GlassMagnifier
+          <div className="col-sm-5 card image rounded-5 position-relative">
+            {/* <GlassMagnifier
               imageSrc={featuredImg}
               magnifierSize={"30%"}
               allowOverflow={true}
               magnifierBorderSize={"5"}
-            />
+            /> */}
+            <Zoom>
+              <img
+                alt="That Wanaka Tree, New Zealand by Laura Smetsers"
+                src={featuredImg}
+                className="w-100"
+              />
+            </Zoom>
             <SearchOutlinedIcon className="position-absolute" />
 
             <Slider {...settings} className="zoomSlider mt-4" ref={zoomRef}>
