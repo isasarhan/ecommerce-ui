@@ -2,21 +2,26 @@ import React from 'react'
 import './banner.css'
 import Link from 'next/link'
 
-const PageBanner = () => {
+const PageBanner = ({ title, links = [] }) => {
     return (
         <div className="pageBanner">
-            <h1>Contact Us</h1>
+            <h1>{title}</h1>
             <nav
                 style={{ "--bs-breadcrumb-divider": "'>'" }}
                 aria-label="breadcrumb">
                 <ol className="breadcrumb ">
-                    <li className="breadcrumb-item ">
-                        <Link href="/" className="text-decoration-none ">
-                            Home
-                        </Link>
-                    </li>
+                    {
+                        links.map((link) => {
+                             return <li className="breadcrumb-item ">
+                                <Link href={link.link} className="text-decoration-none ">
+                                    {link.title}
+                                </Link>
+                            </li>
+                        })
+                    }
+
                     <li className="breadcrumb-item " aria-current="page">
-                        Contact Us
+                        {title}
                     </li>
                 </ol>
             </nav>

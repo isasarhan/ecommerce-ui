@@ -14,7 +14,9 @@ const ContactPage = () => {
     return (
         <section className="contactSection ">
             <div className="container-fluid">
-                <PageBanner/>
+                <PageBanner title={"Contact Us"} links={
+                    [{ link: "/", title: 'Home' }]
+                } />
 
                 <div className="contactInfo ">
                     <div className="row w-100">

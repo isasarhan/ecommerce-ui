@@ -51,7 +51,9 @@ const ListingPage = () => {
   return (
     <div className="listingPage">
       <div className="container-fluid">
-        <PageBanner/>
+        <PageBanner title={"All Products"} links={
+          [{link:"/", title:'Home'}, {link:"#", title:'Products'}]
+          }/>
         <div className="listingData">
           <div className="row">
             <div className=" col-sm-3 mb-4 sidebarWrapper">
