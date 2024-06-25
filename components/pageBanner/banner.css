@@ -1,4 +1,4 @@
-.banner {
+.pageBanner {
     width: 100%;
     background-color: #DCF0E5;
     height: auto;
@@ -7,11 +7,11 @@
     margin-bottom: 35px;
   }
   
-  .banner ol li {
+  .pageBanner ol li {
     margin-right: 5px;
   }
   
-  .banner ol li a {
+  .pageBanner ol li a {
     text-decoration: none;
     color: black;
   }

@@ -4,7 +4,7 @@ import Link from 'next/link'
 
 const PageBanner = () => {
     return (
-        <div className="banner">
+        <div className="pageBanner">
             <h1>Contact Us</h1>
             <nav
                 style={{ "--bs-breadcrumb-divider": "'>'" }}
