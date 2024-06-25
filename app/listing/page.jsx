@@ -12,6 +12,7 @@ import axios from "axios";
 import Pagination from "@/components/paginate/paginate";
 import { paginate } from "@/utiliti/paginate";
 import { getProducts } from "@/services/productServices";
+import PageBanner from "@/components/pageBanner/pageBanner";
 
 const ListingPage = () => {
   const [isOpenFilter, setIsOpenFilter] = useState(false);
@@ -50,29 +51,7 @@ const ListingPage = () => {
   return (
     <div className="listingPage">
       <div className="container-fluid">
-        <div className="banner">
-
-          <h1>Listing Page</h1>
-          <nav
-            style={{ "--bs-breadcrumb-divider": "'>'" }}
-            aria-label="breadcrumb">
-            <ol className="breadcrumb ">
-              <li className="breadcrumb-item ">
-                <Link href="/" className="text-decoration-none ">
-                  Home
-                </Link>
-              </li>
-              <li className="breadcrumb-item " aria-current="page">
-                Library
-              </li>
-              <li className="breadcrumb-item active">
-                <Link href={""} className="text-decoration-none" >Shop</Link>{" "}
-              </li>
-
-            </ol>
-          </nav>
-
-        </div>
+        <PageBanner/>
         <div className="listingData">
           <div className="row">
             <div className=" col-sm-3 mb-4 sidebarWrapper">

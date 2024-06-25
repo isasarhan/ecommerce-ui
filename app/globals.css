@@ -64,23 +64,6 @@ p{
   align-items: center;
   justify-content: center;
 }
-.banner {
-  width: 100%;
-  background-color: #DCF0E5;
-  height: auto;
-  border-radius: 20px;
-  padding: 45px 25px;
-  margin-bottom: 35px;
-}
-
-.banner ol li {
-  margin-right: 5px;
-}
-
-.banner ol li a {
-  text-decoration: none;
-  color: black;
-}
 
 .breadcrumbWrapper .breadcrumb {
   border-bottom: 1px solid #ece2e2;

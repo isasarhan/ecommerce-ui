@@ -8,30 +8,13 @@ import TwitterIcon from "@mui/icons-material/Twitter";
 import FacebookIcon from "@mui/icons-material/Facebook";
 import WhatsAppIcon from "@mui/icons-material/WhatsApp";
 import InstagramIcon from "@mui/icons-material/Instagram";
+import PageBanner from '@/components/pageBanner/pageBanner';
 
 const ContactPage = () => {
     return (
         <section className="contactSection ">
             <div className="container-fluid">
-                <div className="banner">
-
-                    <h1>Contact Us</h1>
-                    <nav
-                        style={{ "--bs-breadcrumb-divider": "'>'" }}
-                        aria-label="breadcrumb">
-                        <ol className="breadcrumb ">
-                            <li className="breadcrumb-item ">
-                                <Link href="/" className="text-decoration-none ">
-                                    Home
-                                </Link>
-                            </li>
-                            <li className="breadcrumb-item " aria-current="page">
-                                Contact Us
-                            </li>
-                        </ol>
-                    </nav>
-
-                </div>
+                <PageBanner/>
 
                 <div className="contactInfo ">
                     <div className="row w-100">
