@@ -23,7 +23,7 @@ import useWindowDimensions from "@/hooks/useWindowDimensions";
 const Header = () => {
   const [isOpenDropDown, setIsOpenDropDown] = useState(false);
   const [isNavbarOpen, setIsNavbarOpen] = useState(false);
-  const windowsDimensions = useWindowDimensions()
+  // const windowsDimensions = useWindowDimensions()
   const [showOffcanvas, setShowOffcanvas] = useState(false);
   const [showSearch, setShowSearch] = useState(false);
 
@@ -64,7 +64,8 @@ const Header = () => {
             <div className="row align-items-center ">
               <div className="col-sm-2 part1 d-flex align-items-center ">
                 <Link href={'/'}><img src={`/logo.png`} height={"80px"} /></Link>
-                {windowsDimensions.width < 470 && <div className="d-flex align-items-center ms-auto">
+                
+                {/* {windowsDimensions.width < 470 && <div className="d-flex align-items-center ms-auto">
                   <div className="navToggle me-3" onClick={toggleSearch}> <SearchIcon /></div>
                   <div className="navToggle" data-bs-toggle="offcanvas"
                     data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"
@@ -72,7 +73,7 @@ const Header = () => {
                     <MenuIcon /></div>
                   <SearchCanvas showOffcanvas={showSearch} toggleOffCanvas={toggleSearch} />
                   <OffCanvas showOffcanvas={showOffcanvas} toggleOffCanvas={toggleOffCanvas} />
-                </div>}
+                </div>} */}
               </div>
               {/* header search starts here */}
               <div className="col-sm-5 part2">
